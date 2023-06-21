@@ -29,8 +29,8 @@ class BankAccount
 
     public static BankAccount operator + (BankAccount bank1, BankAccount bank2)
     {
-        int newAmountOfMoney = bank1.Money + bank2.Money;
-        string owner = bank1.Owner + "+" + bank2.Owner;
+        double newAmountOfMoney = bank1.Money + bank2.Money;
+        string newOwners = bank1.Owner + "+" + bank2.Owner;
 
         BankAccount newBankAccount = new BankAccount(newAmountOfMoney,newOwners);
         return newBankAccount;
