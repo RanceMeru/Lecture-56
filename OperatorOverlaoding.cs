@@ -2,6 +2,7 @@
 {
      static void Main(string[] args)
     {
+        //shorthand for providing a new definition of an operator
         BankAccount bank1 = new BankAccount(50,"Bob");
         BankAccount bank2 = new BankAccount(150, "Fred");
 

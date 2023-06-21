@@ -6,6 +6,7 @@ class BankAccount
 
     public BankAccount(double money, string owner)
     {
+        //construcoter used 
         this.money = money;
         this.owner = owner;
     }
