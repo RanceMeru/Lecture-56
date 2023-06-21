@@ -6,6 +6,8 @@
         BankAccount bank2 = new BankAccount(150, "Fred");
 
         BankAccount bank3 = bank1 + bank2;
+        Console.WriteLine(bank3.Owner);
+        Console.WriteLine(bank3.Money);
 
     }
 }
