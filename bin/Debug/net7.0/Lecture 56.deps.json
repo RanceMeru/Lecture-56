@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lecture 56/1.0.0": {
+        "runtime": {
+          "Lecture 56.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lecture 56/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
