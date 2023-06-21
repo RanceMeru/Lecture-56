@@ -36,4 +36,14 @@ class BankAccount
         return newBankAccount;
 
     }
+
+     public static BankAccount operator + (BankAccount bank1, double amount)
+    {
+        double newAmountOfMoney = bank1.Money + amount;
+        string newOwners = bank1.Owner;
+
+        BankAccount newBankAccount = new BankAccount(newAmountOfMoney,newOwners);
+        return newBankAccount;
+
+    }
 }

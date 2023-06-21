@@ -9,5 +9,11 @@
         Console.WriteLine(bank3.Owner);
         Console.WriteLine(bank3.Money);
 
+        BankAccount bank4 = bank3 +500;
+
+         Console.WriteLine(bank4.Owner);
+        Console.WriteLine(bank4.Money);
+
+
     }
 }
